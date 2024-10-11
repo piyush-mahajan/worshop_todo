@@ -1,0 +1,28 @@
+# Initialize a new Git repository
+git init
+
+# Add all files to staging
+git add .
+
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'wsm1u@DESKTOP-5ICE6RR.(none)')
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+git commit -m "Initial commit"
+
+# Push changes to the remote repository
+git push origin main
